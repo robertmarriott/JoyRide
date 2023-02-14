@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7034AE7B-8E88-452F-A1F7-3FCE3870D15B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoyRide.Domain", "src\JoyRide.Domain\JoyRide.Domain.csproj", "{86D159BC-22C7-41FE-BB65-0901D4E4A433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoyRide.Application", "src\JoyRide.Application\JoyRide.Application.csproj", "{9DE0B411-4A7E-4D33-81A0-E10D60752E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoyRide.Infrastructure", "src\JoyRide.Infrastructure\JoyRide.Infrastructure.csproj", "{7DEABCA2-B211-422B-A469-23E71314036B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoyRide.Api", "src\JoyRide.Api\JoyRide.Api.csproj", "{12236CEA-128B-4B3A-85E2-510D950CF0DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86D159BC-22C7-41FE-BB65-0901D4E4A433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D159BC-22C7-41FE-BB65-0901D4E4A433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D159BC-22C7-41FE-BB65-0901D4E4A433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D159BC-22C7-41FE-BB65-0901D4E4A433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE0B411-4A7E-4D33-81A0-E10D60752E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE0B411-4A7E-4D33-81A0-E10D60752E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE0B411-4A7E-4D33-81A0-E10D60752E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE0B411-4A7E-4D33-81A0-E10D60752E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DEABCA2-B211-422B-A469-23E71314036B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DEABCA2-B211-422B-A469-23E71314036B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DEABCA2-B211-422B-A469-23E71314036B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DEABCA2-B211-422B-A469-23E71314036B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12236CEA-128B-4B3A-85E2-510D950CF0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12236CEA-128B-4B3A-85E2-510D950CF0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12236CEA-128B-4B3A-85E2-510D950CF0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12236CEA-128B-4B3A-85E2-510D950CF0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86D159BC-22C7-41FE-BB65-0901D4E4A433} = {7034AE7B-8E88-452F-A1F7-3FCE3870D15B}
+		{9DE0B411-4A7E-4D33-81A0-E10D60752E81} = {7034AE7B-8E88-452F-A1F7-3FCE3870D15B}
+		{7DEABCA2-B211-422B-A469-23E71314036B} = {7034AE7B-8E88-452F-A1F7-3FCE3870D15B}
+		{12236CEA-128B-4B3A-85E2-510D950CF0DF} = {7034AE7B-8E88-452F-A1F7-3FCE3870D15B}
+	EndGlobalSection
+EndGlobal
