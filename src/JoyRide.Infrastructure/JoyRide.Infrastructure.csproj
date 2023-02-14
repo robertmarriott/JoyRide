@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JoyRide.Application\JoyRide.Application.csproj" />
+  </ItemGroup>
+
 </Project>
