@@ -3,9 +3,9 @@ using System.Reflection;
 
 namespace JoyRide.Infrastructure.Persistence;
 
-public class JoyRideDbContext : DbContext
+public class JoyRideContext : DbContext
 {
-    public JoyRideDbContext(DbContextOptions<JoyRideDbContext> options) : base(options)
+    public JoyRideContext(DbContextOptions<JoyRideContext> options) : base(options)
     {
 
     }
